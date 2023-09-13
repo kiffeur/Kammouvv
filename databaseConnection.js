@@ -1,15 +1,16 @@
 const mysql = require('mysql');
 
-const connection = mysql.createConnection({
+/*const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root', // Utilisateur MySQL
   password: '', // Mot de passe MySQL
   database: 'kammouv' // Nom de ta base de données
 });
+*/
 
 
 
-/*const connection = mysql.createConnection({
+const connection = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USERNAME, 
   password: process.env.DB_PASSWORD,
@@ -22,7 +23,7 @@ waitForConnection: true,
 connectionList : 10,
 queueLimit : 0
 });
-*/
+
 
 
 
