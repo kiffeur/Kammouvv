@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.p;
 
 const busRoutes = require('./routes/busRoutes'); // Importe les routes
 const agenceRoutes = require('./routes/agenceRoutes'); // Importe les routes

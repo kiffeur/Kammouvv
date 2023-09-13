@@ -4,7 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel": "vercel"
+    
   },
   "keywords": [],
   "author": "",
@@ -14,4 +17,8 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.6.1"
   }
+
+  
 }
+
+
