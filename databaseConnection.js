@@ -9,10 +9,11 @@ const mysql = require('mysql');
 */
 
 const connection = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USERNAME, 
-  password: process.env.DB_PASSWORD,
-  password: process.env.DB_NAME, 
+  host: process.env.MYSQLHOST,
+  user: process.env.MYSQLUSER,
+  password: process.env.MYSQLPASSWORD,
+  database: process.env.MYSQLDATABASE,
+  port: process.env.MYSQLPORT,
 
 //database: 'kammouv'  Nom de ta base de données
 waitForConnection: true,
